@@ -1,0 +1,125 @@
+/* Practice coding only */
+
+
+/* Understanding Units
+- px
+- %
+- vw, vh
+- vamx, vmin
+- em, rem */
+
+
+/* pixels and percentage */
+
+* {
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: #333;
+}
+
+#inner {
+  height: 50%;
+  width: 50%;
+  background-color: royalblue;
+}
+
+
+
+/* vw and vh */
+
+#box1 {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(40, 123, 40);
+}
+
+#inner1 {
+  height: 30vh; 
+  width: 30vw;
+  background-color: lightblue;
+}
+
+/* vh and vw will apply like the percentage but in respective to the parents, it will apply according to the whole page. */
+
+
+/* Using of vmax and vmin */
+
+
+
+
+/* Learning of em and rem */
+
+
+#parent {
+  background-color: #dadada;
+  width: 50%;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* rem will not dependent on parent, this will afect according to the screen size
+
+
+/* Layout of a website - absolute vs flex */
+
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: limegreen;
+  position: absolute;  /* not recomemded */
+  right: 50%;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
+.child1 {
+  height: 500px;
+  width: 500px;
+  background-color: crimson;
+  border: 5px solid black;
+}
+
+.child2 {
+  height: 500px;
+  width: 500px;
+  background-color: crimson;
+  border: 5px solid black;
+}
+
+
+/* Css media query */
+
+
